@@ -1,0 +1,35 @@
+html,body{
+  margin-left: 2rem;
+  font-family: cursive;
+  width: 100%;
+  height: 100%;
+}
+h1{
+  text-align: center;
+  color: white;
+  background-color: #3CBC8D;
+  font-size: 3rem;
+  width: 95%;
+}
+div{
+  word-spacing: 3px;
+}
+li{
+  color: #A67999;
+  font-size: 1.7rem;
+  font-stretch: semi-condensed;
+}
+.due-date{
+  color: hotpink;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+}
+a:hover{
+  background-color: #A679AA;
+}

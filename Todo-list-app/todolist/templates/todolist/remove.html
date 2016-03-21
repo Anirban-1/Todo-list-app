@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{% static 'todolist/remove.css' %}" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div class="container">
+
+      <h3>Your tasks</h3>
+      <form action="{% url 'remove_task' %}" method="post">
+        {% csrf_token %}
+        <ul>
+          {% for iterator in task_list %}
+          <input type="radio" name="task" value="{{ iterator.id }}">
+          <label for="task">{{ iterator.task }}</label>
+          <br>
+          {% endfor %}
+        </ul>
+        <input type="submit" name="" value="Delete">
+      </form>
+
+    </div>
+  </body>
+</html>

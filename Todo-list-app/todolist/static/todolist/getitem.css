@@ -1,0 +1,41 @@
+html,body{
+  font-family: cursive;
+  width: 100%;
+  height: 100%;
+  margin-left: 2rem;
+}
+div{
+  font-size: 2rem;
+}
+h2{
+  color: white;
+  position: relative;
+  background-color: #cc00ff;
+  width: 90%;
+  text-align: center;
+}
+label{
+  margin-left: 3rem;
+}
+input[type=text]{
+  border: 2px solid #7a0099;
+  padding: 12px 20px;
+  width: 70%;
+  height: 2rem;
+  margin-left: 3rem;
+  font-family: fantasy;
+  font-stretch: extra-expanded;
+  font-size: 50%;
+}
+input[type=submit]{
+  padding: 5px 50px 30px 30px;
+  background-color: #3CBC8D;
+  border: 0px;
+  height: 2rem;
+  margin-left: 3rem;
+  width: 73.3%;
+  font-family: fantasy;
+  font-stretch: extra-expanded;
+  font-size: 20px;
+  color: white;
+}
